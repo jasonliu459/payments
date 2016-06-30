@@ -69,6 +69,16 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.7.5</version>
 		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>dubbo</artifactId>
+			<version>2.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>payment</groupId>
+			<artifactId>commons-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -78,8 +88,8 @@
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.4</source>
-					<target>1.4</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
 			</plugin>
 		</plugins>

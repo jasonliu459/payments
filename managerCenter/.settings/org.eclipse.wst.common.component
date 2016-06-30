@@ -6,7 +6,10 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resource"/>
-        <property name="context-root" value="/controlCenter"/>
+        <dependent-module archiveName="commons-util-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/common-utils/common-utils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/managerCenter/src/main/webapp/WEB-INF/classes"/>
+        <property name="context-root" value="/managerCenter"/>
     </wb-module>
 </project-modules>

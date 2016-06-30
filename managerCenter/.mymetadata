@@ -3,7 +3,7 @@
   type="WEB"
   name="managerCenter"
   id="myeclipse.1466862961953"
-  context-root="/controlCenter"
+  context-root="/managerCenter"
   j2ee-spec="1.4"
   archive="managerCenter.war">
   <attributes>
