@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="managerCenter"
+  id="myeclipse.1466862961953"
+  context-root="/controlCenter"
+  j2ee-spec="1.4"
+  archive="managerCenter.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
