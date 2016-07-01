@@ -1,3 +1,5 @@
 .apdisk
 /.metadata
 /*/target
+/*/log
+/*/logs
